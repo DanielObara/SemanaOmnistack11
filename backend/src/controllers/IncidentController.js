@@ -1,7 +1,6 @@
 const connection = require("../database/connection");
 
 module.exports = {
-	
   async index(request, response) {
     const { page = 1 } = request.query;
     const [count] = await connection("incidents").count();
@@ -24,12 +23,7 @@ module.exports = {
 
   async create(request, response) {
     const { title, description, value } = request.body;
-    console.log(
-      "create -> title, description, value",
-      title,
-      description,
-      value
-    );
+
     const ong_id = request.headers.authorization;
 
     const [id] = await connection("incidents").insert({
@@ -43,7 +37,8 @@ module.exports = {
   },
 
   async delete(request, response) {
-    const { id } = request.params;
+		const { id } = request.params;
+		
     const ong_id = request.headers.authorization;
 
     const incident = await connection("incidents")
@@ -51,19 +46,15 @@ module.exports = {
       .select("ong_id")
       .first();
 
-    if (!incident) {
-      return response.status(404).json({ error: "Incident not found" });
-    }
+    if (!incident) response.status(404).json({ error: "Incident not found" });
 
-    if (incident.ong_id != ong_id) {
-      return res.status(401).json({ error: "Operation not permitted" });
-    }
+    if (incident.ong_id !== ong_id)
+      response.status(401).json({ error: "Operation not permitted" });
 
     await connection("incidents")
       .where("id", id)
       .delete();
 
-    return response.status(204).send();
+    return response.status(200).send({msg: "Incident was successfully deleted" });
   }
 };
-
