@@ -53,7 +53,7 @@ Be The Hero is a project that aims to connect people who are willing to help ONG
 
 ## 🔖 Layout
 
-	:construction: In progress.. :construction:
+:construction: In progress.. :construction:
 
 ## 🤔 How to contribute
 
