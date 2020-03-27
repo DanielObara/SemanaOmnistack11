@@ -35,8 +35,6 @@
   <a href="#memo-license">License</a>
 </p>
 
-<br>
-
 ## 💻 Project
 
 Be The Hero is a project that aims to connect people who are willing to help ONGs.
