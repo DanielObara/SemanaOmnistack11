@@ -51,18 +51,8 @@ Be The Hero is a project that aims to connect people who are willing to help ONG
 This project was developed with the following technologies:
 
 - [Node.js](https://nodejs.org/en/) 
-<p>
-<a aria-label="NodeJs version" href="https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V12.md#12.14.1">
-    <img src="https://img.shields.io/badge/node.js@lts-12.16.1-informational?logo=Node.JS"></img>
-  </a>
-</p>
 
 - [React](https://reactjs.org)
-<p>
-  <a aria-label="ReactJs version" href="https://github.com/facebook/react/blob/master/CHANGELOG.md#16131-march-19-2020">
-    <img src="https://img.shields.io/badge/react-16.13.1-informational?logo=react"></img>
-  </a>	
-</p>
 
 - [React Native](https://facebook.github.io/react-native/)
 
