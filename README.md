@@ -21,7 +21,9 @@
   <a href="https://github.com/DanielObara/SemanaOmnistack11/issues">
     <img alt="Repository issues" src="https://img.shields.io/github/issues/DanielObara/SemanaOmnistack11">
   </a>
-
+<a aria-label="Completed" href="https://rocketseat.com.br/week-10/aulas#4">
+    <img src="https://img.shields.io/badge/OmniStack-done-green?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAALVBMVEVHcExxWsF0XMJzXMJxWcFsUsD///9jRrzY0u6Xh9Gsn9n39fyMecy0qd2bjNJWBT0WAAAABHRSTlMA2Do606wF2QAAAGlJREFUGJVdj1cWwCAIBLEsRU3uf9xobDH8+GZwUYi8i6ucJwrxKE+7D0G9Q4vlYqtmCSjndr4CgCgzlyFgfKfKCVO0LrPKjmiqMxGXkJwNnXskqWG+1oSM+BSwD8f29YLNjvx/OQrn+g99oQSoNmt3PgAAAABJRU5ErkJggg=="></img>
+  </a>
   <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
 </p>
 <p align="center">
@@ -51,11 +53,19 @@ This project was developed with the following technologies:
 - [Node.js](https://nodejs.org/en/) 
 <p>
 <a aria-label="NodeJs version" href="https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V12.md#12.14.1">
-    <img src="https://img.shields.io/badge/node.js@lts-12.14.1-informational?logo=Node.JS"></img>
+    <img src="https://img.shields.io/badge/node.js@lts-12.16.1-informational?logo=Node.JS"></img>
   </a>
-  </p>
+</p>
+
 - [React](https://reactjs.org)
+<p>
+  <a aria-label="ReactJs version" href="https://github.com/facebook/react/blob/master/CHANGELOG.md#16131-march-19-2020">
+    <img src="https://img.shields.io/badge/react-16.13.1-informational?logo=react"></img>
+  </a>	
+</p>
+
 - [React Native](https://facebook.github.io/react-native/)
+
 - [Expo](https://expo.io/)
 
 ## 🔖 Layout
