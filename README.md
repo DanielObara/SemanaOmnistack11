@@ -57,7 +57,17 @@ Be The Hero is a project that aims to connect people who are willing to help ONG
 
 ## 🔖 Layout
 
-:construction: In progress.. :construction:
+:desktop: In progress.. :desktop:
+
+<p align="center">
+  <img alt="desktop" src=".github/Desktop.gif" width="250px">
+</p>
+
+:mobile: In progress.. :mobile:
+
+<p align="center">
+  <img alt="mobile" src=".github/Mobile.gif" width="250px">
+</p>
 
 ## 🤔 How to contribute
 
