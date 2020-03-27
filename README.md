@@ -57,17 +57,8 @@ Be The Hero is a project that aims to connect people who are willing to help ONG
 
 ## 🔖 Layout
 
-:computer: Desktop :computer:
+Para acessar o layout utilize a ferramenta [Figma](https://www.figma.com/file/2C2yvw7jsCOGmaNUDftX9n/Be-The-Hero---OmniStack-11?node-id=0%3A1).
 
-<p align="center">
-  <img alt="desktop" src=".github/Desktop.gif" width="250px">
-</p>
-
-:iphone: Mobile :iphone:
-
-<p align="center">
-  <img alt="mobile" src=".github/Mobile.gif" width="250px">
-</p>
 
 ## 🤔 How to contribute
 
