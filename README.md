@@ -57,13 +57,13 @@ Be The Hero is a project that aims to connect people who are willing to help ONG
 
 ## 🔖 Layout
 
-:desktop: In progress.. :desktop:
+:computer: In progress.. :computer:
 
 <p align="center">
   <img alt="desktop" src=".github/Desktop.gif" width="250px">
 </p>
 
-:mobile: In progress.. :mobile:
+:iphone: In progress.. :iphone:
 
 <p align="center">
   <img alt="mobile" src=".github/Mobile.gif" width="250px">
