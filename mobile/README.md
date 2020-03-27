@@ -3,7 +3,7 @@
 </h2>
 
 <p align="center">
-  <img alt="mobile" src=".github/Mobile.gif" width="250px">
+  <img alt="mobile" src="../.github/Mobile.gif" width="250px">
 </p>
 
 <p align="center">
