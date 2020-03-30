@@ -3,7 +3,7 @@
 </h1>
 
 <h4 align="center"> 
-	:construction: 🚀 Semana OmniStack 11.0 In progress.. :construction:
+	:heavy_check_mark: 🚀 Semana OmniStack 11.0 :heavy_check_mark:
 </h4>
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/DanielObara/SemanaOmnistack11?color=%2304D361">
