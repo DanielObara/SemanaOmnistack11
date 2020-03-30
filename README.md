@@ -3,7 +3,7 @@
 </h1>
 
 <h4 align="center"> 
-	:construction: 🚀 Semana OmniStack 11.0 In progress.. :construction:
+	:heavy_check_mark: 🚀 Semana OmniStack 11.0 :heavy_check_mark:
 </h4>
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/DanielObara/SemanaOmnistack11?color=%2304D361">
@@ -103,3 +103,10 @@ This project is under the MIT license. See the [LICENSE](LICENSE.md) for details
 ---
 
 Made with ♥ by Daniel Obara :wave: [Get in touch!](https://www.linkedin.com/in/danielobara/)
+
+[nodejs]: https://nodejs.org/
+[yarn]: https://yarnpkg.com/
+[vc]: https://code.visualstudio.com/
+[vceditconfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
+[vceslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+[prettier]: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
