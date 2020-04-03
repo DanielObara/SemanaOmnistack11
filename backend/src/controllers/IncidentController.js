@@ -21,6 +21,21 @@ module.exports = {
     return response.json(incidents)
   },
 
+  async show(request, response) {
+    const { id } = request.params
+    const incident = await connection('incidents').where('id', id).first()
+
+    if (!incident) {
+      return response.status(404).json({
+        error: {
+          message: 'Incident not found',
+        },
+      })
+    }
+
+    return response.json(incident)
+  },
+
   async create(request, response) {
     const { title, description, value } = request.body
 
