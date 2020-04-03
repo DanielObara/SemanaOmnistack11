@@ -85,6 +85,9 @@ $ yarn seed
 
 # Run the API
 $ yarn dev
+
+# Run tests
+$ yarn test
 ```
 
 ## 🤔 How to contribute
