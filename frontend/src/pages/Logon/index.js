@@ -5,6 +5,7 @@ import { FiLogIn } from "react-icons/fi";
 import heroesImg from "../../assets/heroes.png";
 import logoImg from "../../assets/logo.svg";
 import api from "../../services/api";
+import Swal from "sweetalert2";
 
 import "./styles.css";
 
@@ -24,8 +25,11 @@ export default function Logon() {
 
       history.push("/profile");
     } catch (err) {
-      console.log(err);
-      alert("Falha no login, tente novamente.");
+      await Swal.fire({
+        title: "ERRO!",
+        text: "Falha no login, tente novamente.",
+        icon: "error"
+      });
     }
   }
   return (

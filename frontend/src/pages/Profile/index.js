@@ -3,6 +3,7 @@ import logoImg from "../../assets/logo.svg";
 import { Link, useHistory } from "react-router-dom";
 import { FiPower, FiTrash2 } from "react-icons/fi";
 import api from "../../services/api";
+import Swal from "sweetalert2";
 import "./styles.css";
 
 export default function Profile() {
@@ -32,8 +33,18 @@ export default function Profile() {
       });
 
       setIncidents(incidents.filter(incident => incident.id !== id));
+
+      await Swal.fire({
+        title: "SUCESSO!",
+        text: "Caso deletado com sucesso!",
+        icon: "success"
+      });
     } catch (err) {
-      alert("Erro ao deletar o caso");
+      await Swal.fire({
+        title: "ERRO",
+        text: "Erro ao deletar o caso.",
+        icon: "error"
+      });
     }
   }
 

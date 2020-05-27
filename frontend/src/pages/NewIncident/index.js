@@ -3,6 +3,7 @@ import { Link, useHistory } from "react-router-dom";
 import { FiArrowLeft } from "react-icons/fi";
 
 import api from "../../services/api";
+import Swal from "sweetalert2";
 
 import "./styles.css";
 
@@ -31,10 +32,19 @@ export default function NewIncident() {
         headers: { Authorization: ongId }
       });
 
-      history.push("/profile");
+      const response = await Swal.fire({
+        title: "SUCESSO!",
+        text: "Caso cadastrado com sucesso!",
+        icon: "success"
+      });
+
+      if (response.value) history.push("/profile");
     } catch (err) {
-      console.log(err);
-      alert("Erro no cadastro, tente novamente");
+      await Swal.fire({
+        title: "ERRO!",
+        text: "Erro no cadastro, tente novamente.",
+        icon: "error"
+      });
     }
   }
   return (

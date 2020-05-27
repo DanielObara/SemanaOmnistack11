@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link, useHistory } from "react-router-dom";
 import { FiArrowLeft } from "react-icons/fi";
+import Swal from "sweetalert2";
 
 import "./styles.css";
 
@@ -31,12 +32,20 @@ export default function Register() {
     try {
       const response = await api.post("/ongs", data);
 
-      alert(`Seu ID de acesso: ${response.data.id}`);
+      const confirmation = await Swal.fire({
+        title: "INFO",
+        text: `Seu ID de acesso: ${response.data.id}`,
+        icon: "info"
+      });
 
-      history.push("/");
+      if (confirmation.value) history.push("/");
     } catch (err) {
       console.log(err);
-      alert("Erro no cadastro, tente novamente");
+      await Swal.fire({
+        title: "ERRO!",
+        text: "Erro no cadastro, tente novamente.",
+        icon: "error"
+      });
     }
   }
 
